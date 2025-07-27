@@ -20,7 +20,7 @@ if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 
 # Конфигурация
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BROADCAST_BOT_TOKEN")
 ADMIN_ID =  os.getenv("ADMIN_ID")
 TARGET_CHAT_ID =  os.getenv("TARGET_CHAT_ID")
 
